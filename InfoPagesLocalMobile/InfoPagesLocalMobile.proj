@@ -28,6 +28,10 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="resources" />
+    <Folder Include="resources\css" />
+    <Folder Include="resources\icons" />
+    <Folder Include="resources\startup" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -51,10 +55,9 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="css\index.css" />
-    <Content Include="js\index.js" />
-    <Content Include="img\logo.png" />
+    <Content Include="app.js" />
+    <Content Include="app.json" />
+    <Content Include="cache.appcache" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
       <TargetName>cordova.js</TargetName>
@@ -63,6 +66,20 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="index.html" />
+    <Content Include="resources\css\app.css" />
+    <Content Include="resources\icons\icon-spot~ipad.png" />
+    <Content Include="resources\icons\Icon.png" />
+    <Content Include="resources\icons\Icon@2x.png" />
+    <Content Include="resources\icons\Icon~ipad.png" />
+    <Content Include="resources\icons\Icon~ipad@2x.png" />
+    <Content Include="resources\icons\iTunesArtwork.png" />
+    <Content Include="resources\startup\1496x2048.png" />
+    <Content Include="resources\startup\1536x2008.png" />
+    <Content Include="resources\startup\320x460.jpg" />
+    <Content Include="resources\startup\640x920.png" />
+    <Content Include="resources\startup\748x1024.png" />
+    <Content Include="resources\startup\768x1004.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
