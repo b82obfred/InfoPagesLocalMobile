@@ -12,6 +12,8 @@
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="app" />
+    <Folder Include="app\data" />
     <Folder Include="App_Resources" />
     <Folder Include="App_Resources\iOS">
       <Platform>iOS</Platform>
@@ -29,6 +31,7 @@
       <Platform>Android</Platform>
     </Folder>
     <Folder Include="resources" />
+    <Folder Include="touch" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -52,6 +55,12 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app.js" />
+    <Content Include="app.json" />
+    <Content Include="app\data\DataResults.json" />
+    <Content Include="app\data\DealsDirectory.json" />
+    <Content Include="app\data\ListingsDirectory.json" />
+    <Content Include="cache.appcache" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
       <TargetName>cordova.js</TargetName>
@@ -60,6 +69,9 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="index.html" />
+    <Content Include="touch\jstorage.js" />
+    <Content Include="touch\prototype.js" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
