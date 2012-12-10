@@ -30,11 +30,6 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
-    <Folder Include="deltas" />
-    <Folder Include="deltas\app.js" />
-    <Folder Include="deltas\resources" />
-    <Folder Include="deltas\resources\css" />
-    <Folder Include="deltas\resources\css\custom.css" />
     <Folder Include="resources" />
     <Folder Include="resources\buttons" />
     <Folder Include="resources\css" />
@@ -84,7 +79,6 @@
     <Content Include="app\data\DataResults.json" />
     <Content Include="app\data\DealsDirectory.json" />
     <Content Include="app\data\ListingsDirectory.json" />
-    <Content Include="cache.appcache" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
       <TargetName>cordova.js</TargetName>
@@ -93,10 +87,23 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
-    <Content Include="deltas\app.js\316ab84221082b85ee6386321549d20037a15e21.json" />
-    <Content Include="deltas\app.js\36f4d4295946a7d150c712677260df11297f6e27.json" />
-    <Content Include="deltas\resources\css\custom.css\f3981924ed349bdca959bad4ac3179ff4b589bf0.json" />
+    <Content Include="Default-Landscape@2x~ipad.png" />
+    <Content Include="Default-LandscapeLeft~ipad.png" />
+    <Content Include="Default-LandscapeRight~ipad.png" />
+    <Content Include="Default-Landscape~ipad.png" />
+    <Content Include="Default-Portrait@2x~ipad.png" />
+    <Content Include="Default-PortraitUpsideDown~ipad.png" />
+    <Content Include="Default-Portrait~ipad.png" />
+    <Content Include="Default.png" />
+    <Content Include="Default@2x.png" />
+    <Content Include="Default~ipad.png" />
+    <Content Include="icon-spot~ipad.png" />
+    <Content Include="Icon.png" />
+    <Content Include="Icon@2x.png" />
+    <Content Include="Icon~ipad.png" />
+    <Content Include="Icon~ipad@2x.png" />
     <Content Include="index.html" />
+    <Content Include="iTunesArtwork.png" />
     <Content Include="resources\buttons\Automotive.png" />
     <Content Include="resources\buttons\AutomotiveOld.png" />
     <Content Include="resources\buttons\Beauty.png" />
