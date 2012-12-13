@@ -12,8 +12,6 @@
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="app" />
-    <Folder Include="app\data" />
     <Folder Include="App_Resources" />
     <Folder Include="App_Resources\iOS">
       <Platform>iOS</Platform>
@@ -30,27 +28,6 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
-    <Folder Include="resources" />
-    <Folder Include="resources\buttons" />
-    <Folder Include="resources\css" />
-    <Folder Include="resources\icons" />
-    <Folder Include="resources\images" />
-    <Folder Include="resources\loading" />
-    <Folder Include="resources\sass" />
-    <Folder Include="resources\sass\.sass-cache" />
-    <Folder Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819" />
-    <Folder Include="resources\sass\.sass-cache\09c90ce18f99d90b835288f0fff1c6e5ad642471" />
-    <Folder Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9" />
-    <Folder Include="resources\sass\.sass-cache\546617cc776ca6d5c0efa7ea01d19d6caefe5497" />
-    <Folder Include="resources\sass\.sass-cache\764f76a67eadbf9f693539fca68446585e5188a4" />
-    <Folder Include="resources\sass\.sass-cache\8cd03a03f6102ccb5a8d013c7b90e00c5e064585" />
-    <Folder Include="resources\sass\.sass-cache\a025183b51f17107a3e52323a93779b8ba314e32" />
-    <Folder Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a" />
-    <Folder Include="resources\sass\.sass-cache\b181e21b11cd02b06e5b9de79e9890e7e7127051" />
-    <Folder Include="resources\sass\.sass-cache\c71150f6e20ff569de19266bee66e6cff022d7bd" />
-    <Folder Include="resources\sass\.sass-cache\d14dbe181f8077b0814b638fca389ca197aee0d5" />
-    <Folder Include="resources\startup" />
-    <Folder Include="touch" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -74,11 +51,6 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app.js" />
-    <Content Include="app.json" />
-    <Content Include="app\data\DataResults.json" />
-    <Content Include="app\data\DealsDirectory.json" />
-    <Content Include="app\data\ListingsDirectory.json" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
       <TargetName>cordova.js</TargetName>
@@ -87,161 +59,6 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
-    <Content Include="Default-Landscape@2x~ipad.png" />
-    <Content Include="Default-LandscapeLeft~ipad.png" />
-    <Content Include="Default-LandscapeRight~ipad.png" />
-    <Content Include="Default-Landscape~ipad.png" />
-    <Content Include="Default-Portrait@2x~ipad.png" />
-    <Content Include="Default-PortraitUpsideDown~ipad.png" />
-    <Content Include="Default-Portrait~ipad.png" />
-    <Content Include="Default.png" />
-    <Content Include="Default@2x.png" />
-    <Content Include="Default~ipad.png" />
-    <Content Include="icon-spot~ipad.png" />
-    <Content Include="Icon.png" />
-    <Content Include="Icon@2x.png" />
-    <Content Include="Icon~ipad.png" />
-    <Content Include="Icon~ipad@2x.png" />
-    <Content Include="index.html" />
-    <Content Include="iTunesArtwork.png" />
-    <Content Include="resources\buttons\Automotive.png" />
-    <Content Include="resources\buttons\AutomotiveOld.png" />
-    <Content Include="resources\buttons\Beauty.png" />
-    <Content Include="resources\buttons\ChildCare.png" />
-    <Content Include="resources\buttons\Cleaning.png" />
-    <Content Include="resources\buttons\Clothing.png" />
-    <Content Include="resources\buttons\Contractors.png" />
-    <Content Include="resources\buttons\Education.png" />
-    <Content Include="resources\buttons\Electronics.png" />
-    <Content Include="resources\buttons\Entertainment.png" />
-    <Content Include="resources\buttons\Featured.png" />
-    <Content Include="resources\buttons\Garden.png" />
-    <Content Include="resources\buttons\Groceries.png" />
-    <Content Include="resources\buttons\Health.png" />
-    <Content Include="resources\buttons\Law.png" />
-    <Content Include="resources\buttons\List_Deal.png" />
-    <Content Include="resources\buttons\NearMe.png" />
-    <Content Include="resources\buttons\PetCare.png" />
-    <Content Include="resources\buttons\RealEstate.png" />
-    <Content Include="resources\buttons\Restaurants.png" />
-    <Content Include="resources\buttons\Sports.png" />
-    <Content Include="resources\buttons\Summer.png" />
-    <Content Include="resources\buttons\Travel.png" />
-    <Content Include="resources\css\app.css" />
-    <Content Include="resources\css\buttons.css" />
-    <Content Include="resources\css\custom.css" />
-    <Content Include="resources\icons\icon-spot~ipad.png" />
-    <Content Include="resources\icons\Icon.png" />
-    <Content Include="resources\icons\Icon@2x.png" />
-    <Content Include="resources\icons\Icon~ipad.png" />
-    <Content Include="resources\icons\Icon~ipad@2x.png" />
-    <Content Include="resources\icons\iTunesArtwork.png" />
-    <Content Include="resources\images\Background.png" />
-    <Content Include="resources\images\Background_Body.png" />
-    <Content Include="resources\images\Background_Header.png" />
-    <Content Include="resources\images\Background_Listing.png" />
-    <Content Include="resources\images\Background_Search.png" />
-    <Content Include="resources\images\Deals.png" />
-    <Content Include="resources\images\Home_Deals.png" />
-    <Content Include="resources\images\Home_Listings.png" />
-    <Content Include="resources\images\Home_Logo.png" />
-    <Content Include="resources\images\List_Blank.png" />
-    <Content Include="resources\images\List_Deal.png" />
-    <Content Include="resources\images\List_Info.png" />
-    <Content Include="resources\images\List_Map.png" />
-    <Content Include="resources\images\List_Menu.png" />
-    <Content Include="resources\images\Toolbar_Logo.png" />
-    <Content Include="resources\loading\Default-Landscape@2x~ipad.png" />
-    <Content Include="resources\loading\Default-LandscapeLeft~ipad.png" />
-    <Content Include="resources\loading\Default-LandscapeRight~ipad.png" />
-    <Content Include="resources\loading\Default-Landscape~ipad.png" />
-    <Content Include="resources\loading\Default-Portrait@2x~ipad.png" />
-    <Content Include="resources\loading\Default-PortraitUpsideDown~ipad.png" />
-    <Content Include="resources\loading\Default-Portrait~ipad.png" />
-    <Content Include="resources\loading\Default.png" />
-    <Content Include="resources\loading\Default@2x.png" />
-    <Content Include="resources\loading\Default~ipad.png" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_blueprint-grid.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_carbon-fiber.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_checkerboard.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_cicada.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_gradients.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_houndstooth.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_lined-paper.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_madras.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_noise.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_polka-dot.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_radial-overlay.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_striped.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_stripes.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_tablecloth.scssc" />
-    <Content Include="resources\sass\.sass-cache\0182e9b7df5fe69a864887fb3628a00118a3b819\_tartan.scssc" />
-    <Content Include="resources\sass\.sass-cache\09c90ce18f99d90b835288f0fff1c6e5ad642471\_colors.scssc" />
-    <Content Include="resources\sass\.sass-cache\09c90ce18f99d90b835288f0fff1c6e5ad642471\_typography.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_buttons.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_carousel.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_charts.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_draw.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_form-sliders.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_form.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_img.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_indexbar.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_list.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_loading-spinner.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_map.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_media.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_msgbox.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_panel.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_picker.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_sheets.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_tabs.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_toolbar-forms.scssc" />
-    <Content Include="resources\sass\.sass-cache\505cccf62ee8324132ffe74898b192d6442470f9\_toolbar.scssc" />
-    <Content Include="resources\sass\.sass-cache\546617cc776ca6d5c0efa7ea01d19d6caefe5497\_core.scssc" />
-    <Content Include="resources\sass\.sass-cache\546617cc776ca6d5c0efa7ea01d19d6caefe5497\_layout.scssc" />
-    <Content Include="resources\sass\.sass-cache\546617cc776ca6d5c0efa7ea01d19d6caefe5497\_reset.scssc" />
-    <Content Include="resources\sass\.sass-cache\764f76a67eadbf9f693539fca68446585e5188a4\_float.scssc" />
-    <Content Include="resources\sass\.sass-cache\764f76a67eadbf9f693539fca68446585e5188a4\_hacks.scssc" />
-    <Content Include="resources\sass\.sass-cache\8cd03a03f6102ccb5a8d013c7b90e00c5e064585\_css3.scssc" />
-    <Content Include="resources\sass\.sass-cache\8cd03a03f6102ccb5a8d013c7b90e00c5e064585\_support.scssc" />
-    <Content Include="resources\sass\.sass-cache\a025183b51f17107a3e52323a93779b8ba314e32\_link-colors.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_appearance.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_background-clip.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_background-origin.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_background-size.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_border-radius.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_box-shadow.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_box-sizing.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_box.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_columns.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_font-face.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_gradient.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_images.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_inline-block.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_opacity.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_shared.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_text-shadow.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_transform.scssc" />
-    <Content Include="resources\sass\.sass-cache\a496b3eb5069cd26081876c330ac6faceb69394a\_transition.scssc" />
-    <Content Include="resources\sass\.sass-cache\b181e21b11cd02b06e5b9de79e9890e7e7127051\_background.scssc" />
-    <Content Include="resources\sass\.sass-cache\b181e21b11cd02b06e5b9de79e9890e7e7127051\_color.scssc" />
-    <Content Include="resources\sass\.sass-cache\c71150f6e20ff569de19266bee66e6cff022d7bd\app.scssc" />
-    <Content Include="resources\sass\.sass-cache\d14dbe181f8077b0814b638fca389ca197aee0d5\_all.scssc" />
-    <Content Include="resources\sass\.sass-cache\d14dbe181f8077b0814b638fca389ca197aee0d5\_core.scssc" />
-    <Content Include="resources\sass\.sass-cache\d14dbe181f8077b0814b638fca389ca197aee0d5\_global.scssc" />
-    <Content Include="resources\sass\.sass-cache\d14dbe181f8077b0814b638fca389ca197aee0d5\_mixins.scssc" />
-    <Content Include="resources\sass\.sass-cache\d14dbe181f8077b0814b638fca389ca197aee0d5\_variables.scssc" />
-    <Content Include="resources\sass\.sass-cache\d14dbe181f8077b0814b638fca389ca197aee0d5\_widgets.scssc" />
-    <Content Include="resources\sass\app.scss" />
-    <Content Include="resources\sass\config.rb" />
-    <Content Include="resources\startup\1496x2048.png" />
-    <Content Include="resources\startup\1536x2008.png" />
-    <Content Include="resources\startup\320x460.jpg" />
-    <Content Include="resources\startup\640x920.png" />
-    <Content Include="resources\startup\748x1024.png" />
-    <Content Include="resources\startup\768x1004.png" />
-    <Content Include="touch\jstorage.js" />
-    <Content Include="touch\prototype.js" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
