@@ -51,7 +51,6 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include=".sencha\workspace\resources\sass\.sass-cache\d14dbe181f8077b0814b638fca389ca197aee0d5\_all.scssc" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
       <TargetName>cordova.js</TargetName>
